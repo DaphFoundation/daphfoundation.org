@@ -6,45 +6,78 @@
     <title>DAPH — Together We Rise</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-
     <!-- ===== NAVBAR ===== -->
     <header class="navbar" id="navbar">
       <div class="navbar__inner">
         <a href="index.html" class="navbar__logo">
-          <img src="assets/images/logo1.png" alt="DAPH logo" class="navbar__logo-img" />
+          <img
+            src="assets/images/logo1.png"
+            alt="DAPH logo"
+            class="navbar__logo-img"
+          />
           DAPH
         </a>
 
         <nav class="navbar__nav" id="mainNav">
           <ul class="nav-list">
-
             <li class="nav-item has-dropdown">
               <a href="about.html" data-i18n="nav.about">About</a>
               <ul class="dropdown">
-                <li><a href="about.html#who" data-i18n="nav.who">Who We Are</a></li>
-                <li><a href="about.html#history" data-i18n="nav.history">Our History</a></li>
-                <li><a href="about.html#board" data-i18n="nav.board">Board of Directors</a></li>
+                <li>
+                  <a href="about.html#who" data-i18n="nav.who">Who We Are</a>
+                </li>
+                <li>
+                  <a href="about.html#history" data-i18n="nav.history"
+                    >Our History</a
+                  >
+                </li>
+                <li>
+                  <a href="about.html#board" data-i18n="nav.board"
+                    >Board of Directors</a
+                  >
+                </li>
               </ul>
             </li>
 
             <li class="nav-item has-dropdown">
               <a href="news.html" data-i18n="nav.resources">Resources</a>
               <ul class="dropdown">
-                <li><a href="news.html" data-i18n="nav.updates">Latest Updates</a></li>
-                <li><a href="news.html#press" data-i18n="nav.press">Press Releases</a></li>
-                <li><a href="news.html#reports" data-i18n="nav.reports">Reports</a></li>
+                <li>
+                  <a href="news.html" data-i18n="nav.updates">Latest Updates</a>
+                </li>
+                <li>
+                  <a href="news.html#press" data-i18n="nav.press"
+                    >Press Releases</a
+                  >
+                </li>
+                <li>
+                  <a href="news.html#reports" data-i18n="nav.reports"
+                    >Reports</a
+                  >
+                </li>
               </ul>
             </li>
 
             <li class="nav-item has-dropdown">
               <a href="volunteer.html" data-i18n="nav.action">Take Action</a>
               <ul class="dropdown">
-                <li><a href="volunteer.html" data-i18n="nav.volunteer">Volunteer</a></li>
-                <li><a href="volunteer.html#signup" data-i18n="nav.signup">Sign Up</a></li>
+                <li>
+                  <a href="volunteer.html" data-i18n="nav.volunteer"
+                    >Volunteer</a
+                  >
+                </li>
+                <li>
+                  <a href="volunteer.html#signup" data-i18n="nav.signup"
+                    >Sign Up</a
+                  >
+                </li>
                 <li><a href="donate.html" data-i18n="nav.donate">Donate</a></li>
               </ul>
             </li>
@@ -52,13 +85,16 @@
             <li class="nav-item">
               <a href="contact.html" data-i18n="nav.contact">Contact</a>
             </li>
-
           </ul>
         </nav>
 
         <!-- Language Switcher -->
         <div class="lang-switcher" id="langSwitcher">
-          <button class="lang-switcher__btn" id="langBtn" aria-label="Change language">
+          <button
+            class="lang-switcher__btn"
+            id="langBtn"
+            aria-label="Change language"
+          >
             <span class="lang-switcher__globe">🌐</span>
             <span class="lang-switcher__current" id="langCurrent">EN</span>
             <span class="lang-switcher__arrow">▾</span>
@@ -72,8 +108,12 @@
         </div>
 
         <div class="navbar__cta">
-          <a href="donate.html" class="btn btn--outline" data-i18n="nav.donate">Donate</a>
-          <a href="volunteer.html" class="btn btn--primary" data-i18n="cta.join">Join Us</a>
+          <a href="donate.html" class="btn btn--outline" data-i18n="nav.donate"
+            >Donate</a
+          >
+          <a href="volunteer.html" class="btn btn--primary" data-i18n="cta.join"
+            >Join Us</a
+          >
         </div>
 
         <button class="hamburger" id="hamburger" aria-label="Toggle menu">
@@ -87,21 +127,40 @@
       <section class="hero" id="home">
         <div class="hero__bg"></div>
         <div class="hero__content">
-          <p class="hero__eyebrow" data-i18n="hero.eyebrow">Disability Advocacy &amp; Public Health</p>
+          <p class="hero__eyebrow" data-i18n="hero.eyebrow">
+            Disability Advocacy &amp; Public Health
+          </p>
           <h1 class="hero__heading">
             <span data-i18n="hero.heading">Together, we rise.</span><br />
-            <span class="hero__heading-accent" data-i18n="hero.heading2">Organized, we thrive.</span>
+            <span class="hero__heading-accent" data-i18n="hero.heading2"
+              >Organized, we thrive.</span
+            >
           </h1>
           <p class="hero__sub" data-i18n="hero.sub">
-            We invite every individual, no matter how isolated or powerless they feel, to be part of a transformative journey toward equity and justice.
+            We invite every individual, no matter how isolated or powerless they
+            feel, to be part of a transformative journey toward equity and
+            justice.
           </p>
           <div class="hero__actions">
-            <a href="about.html" class="btn btn--primary btn--lg" data-i18n="hero.btnWork">Our Work</a>
-            <a href="volunteer.html" class="btn btn--outline-light btn--lg" data-i18n="hero.btnInvolved">Get Involved</a>
+            <a
+              href="about.html"
+              class="btn btn--primary btn--lg"
+              data-i18n="hero.btnWork"
+              >Our Work</a
+            >
+            <a
+              href="volunteer.html"
+              class="btn btn--outline-light btn--lg"
+              data-i18n="hero.btnInvolved"
+              >Get Involved</a
+            >
           </div>
         </div>
         <div class="hero__image">
-          <img src="assets/images/daph3.png" alt="DAPH community members marching together" />
+          <img
+            src="assets/images/daph3.png"
+            alt="DAPH community members marching together"
+          />
         </div>
         <div class="hero__scroll-hint">↓</div>
       </section>
@@ -110,23 +169,38 @@
     <!-- ===== TRIPLE CRISIS ===== -->
     <section class="crisis" id="issues">
       <div class="container">
-        <h2 class="section-heading" data-i18n="crisis.heading">We face a triple crisis</h2>
-        <p class="section-sub" data-i18n="crisis.sub">People across the country face compounding challenges that demand urgent, coordinated action from our communities.</p>
+        <h2 class="section-heading" data-i18n="crisis.heading">
+          We face a triple crisis
+        </h2>
+        <p class="section-sub" data-i18n="crisis.sub">
+          People across the country face compounding challenges that demand
+          urgent, coordinated action from our communities.
+        </p>
         <div class="crisis__grid">
           <div class="crisis__card">
             <div class="crisis__icon">⚕️</div>
             <h3 data-i18n="crisis.card1.title">Health Inequity</h3>
-            <p data-i18n="crisis.card1.body">Millions lack access to adequate healthcare, especially people with disabilities and low-income families living in underserved communities.</p>
+            <p data-i18n="crisis.card1.body">
+              Millions lack access to adequate healthcare, especially people
+              with disabilities and low-income families living in underserved
+              communities.
+            </p>
           </div>
           <div class="crisis__card">
             <div class="crisis__icon">🏘️</div>
             <h3 data-i18n="crisis.card2.title">Housing Insecurity</h3>
-            <p data-i18n="crisis.card2.body">Rising costs and systemic barriers push vulnerable populations out of safe, accessible housing — threatening stability and dignity.</p>
+            <p data-i18n="crisis.card2.body">
+              Rising costs and systemic barriers push vulnerable populations out
+              of safe, accessible housing — threatening stability and dignity.
+            </p>
           </div>
           <div class="crisis__card">
             <div class="crisis__icon">🤝</div>
             <h3 data-i18n="crisis.card3.title">Social Isolation</h3>
-            <p data-i18n="crisis.card3.body">Disconnection and despair weaken civic life. People feel unheard, unseen, and left behind by institutions that should serve them.</p>
+            <p data-i18n="crisis.card3.body">
+              Disconnection and despair weaken civic life. People feel unheard,
+              unseen, and left behind by institutions that should serve them.
+            </p>
           </div>
         </div>
       </div>
@@ -137,13 +211,30 @@
       <div class="container about__inner">
         <div class="about__text">
           <p class="label" data-i18n="about.label">About Us</p>
-          <h2 data-i18n="about.heading">Building power for those left behind</h2>
-          <p data-i18n="about.body1">DAPH builds the power of people with disabilities and under-resourced communities in urban, rural, and suburban areas to win change through issue fights and elections. We are a coalition of grassroots organizers united in the work of building a bigger "we."</p>
-          <p data-i18n="about.body2">Since our founding, we have won material improvements for millions — including expanded healthcare access, accessible housing protections, and stronger community mental health programs.</p>
-          <a href="about.html" class="btn btn--primary" data-i18n="about.btn">Learn More About Us</a>
+          <h2 data-i18n="about.heading">
+            Building power for those left behind
+          </h2>
+          <p data-i18n="about.body1">
+            DAPH builds the power of people with disabilities and
+            under-resourced communities in urban, rural, and suburban areas to
+            win change through issue fights and elections. We are a coalition of
+            grassroots organizers united in the work of building a bigger "we."
+          </p>
+          <p data-i18n="about.body2">
+            Since our founding, we have won material improvements for millions —
+            including expanded healthcare access, accessible housing
+            protections, and stronger community mental health programs.
+          </p>
+          <a href="about.html" class="btn btn--primary" data-i18n="about.btn"
+            >Learn More About Us</a
+          >
         </div>
         <div class="about__image">
-          <img src="assets/images/daph-community4.png" alt="DAPH community members collaborating" style="mix-blend-mode: lighten" />
+          <img
+            src="assets/images/daph-community4.png"
+            alt="DAPH community members collaborating"
+            style="mix-blend-mode: lighten"
+          />
         </div>
       </div>
     </section>
@@ -151,74 +242,521 @@
     <!-- ===== CAMPAIGNS ===== -->
     <section class="campaigns" id="work">
       <div class="container">
-        <p class="label label--light" data-i18n="campaigns.label">How We Fight</p>
-        <h2 class="section-heading section-heading--light" data-i18n="campaigns.heading">Our Campaigns</h2>
-        <p class="section-sub section-sub--light" data-i18n="campaigns.sub">These are our core campaigns driving the change we aim for.</p>
+        <p class="label label--light" data-i18n="campaigns.label">
+          How We Fight
+        </p>
+        <h2
+          class="section-heading section-heading--light"
+          data-i18n="campaigns.heading"
+        >
+          Our Campaigns
+        </h2>
+        <p class="section-sub section-sub--light" data-i18n="campaigns.sub">
+          These are our core campaigns driving the change we aim for.
+        </p>
         <div class="campaigns__grid">
           <a href="about.html" class="campaign-card">
             <div class="campaign-card__icon">♿</div>
             <h3 data-i18n="campaigns.card1.title">Disability Rights Now</h3>
-            <p data-i18n="campaigns.card1.body">Fighting for full inclusion, accessibility, and equal opportunity for people with disabilities.</p>
-            <span class="campaign-card__link" data-i18n="campaigns.view">View Campaign →</span>
+            <p data-i18n="campaigns.card1.body">
+              Fighting for full inclusion, accessibility, and equal opportunity
+              for people with disabilities.
+            </p>
+            <span class="campaign-card__link" data-i18n="campaigns.view"
+              >View Campaign →</span
+            >
           </a>
           <a href="about.html" class="campaign-card">
             <div class="campaign-card__icon">🏥</div>
             <h3 data-i18n="campaigns.card2.title">Health Care for All</h3>
-            <p data-i18n="campaigns.card2.body">Advocating for universal, affordable healthcare that leaves no one behind.</p>
-            <span class="campaign-card__link" data-i18n="campaigns.view">View Campaign →</span>
+            <p data-i18n="campaigns.card2.body">
+              Advocating for universal, affordable healthcare that leaves no one
+              behind.
+            </p>
+            <span class="campaign-card__link" data-i18n="campaigns.view"
+              >View Campaign →</span
+            >
           </a>
           <a href="about.html" class="campaign-card">
             <div class="campaign-card__icon">🏠</div>
             <h3 data-i18n="campaigns.card3.title">Housing Justice</h3>
-            <p data-i18n="campaigns.card3.body">Ensuring safe, accessible, and affordable housing is a right — not a privilege.</p>
-            <span class="campaign-card__link" data-i18n="campaigns.view">View Campaign →</span>
+            <p data-i18n="campaigns.card3.body">
+              Ensuring safe, accessible, and affordable housing is a right — not
+              a privilege.
+            </p>
+            <span class="campaign-card__link" data-i18n="campaigns.view"
+              >View Campaign →</span
+            >
           </a>
           <a href="about.html" class="campaign-card">
             <div class="campaign-card__icon">🌱</div>
             <h3 data-i18n="campaigns.card4.title">Community Wellness</h3>
-            <p data-i18n="campaigns.card4.body">Building mental health resources, social connection, and civic infrastructure.</p>
-            <span class="campaign-card__link" data-i18n="campaigns.view">View Campaign →</span>
+            <p data-i18n="campaigns.card4.body">
+              Building mental health resources, social connection, and civic
+              infrastructure.
+            </p>
+            <span class="campaign-card__link" data-i18n="campaigns.view"
+              >View Campaign →</span
+            >
           </a>
         </div>
       </div>
     </section>
+    <!-- ===== CHILDREN IN NEED ===== -->
+    <section class="children" id="children">
+      <div class="container">
+        <!-- Header -->
+        <div class="children__header">
+          <p class="label label--light">A Crisis You Can Help End</p>
+          <h2 class="section-heading section-heading--light">
+            They show up to school.<br />
+            <em>Will you show up for them?</em>
+          </h2>
+          <p class="section-sub section-sub--light">
+            These children wake up before sunrise and walk to school on empty
+            stomachs. Their parents love them deeply — but poverty has left them
+            without options. There is no money for school fees. No money for
+            books. Sometimes, no money for food. Yet still, these children come.
+            They sit on broken chairs or bare floors, hungry and hopeful.
+            <strong>They haven't given up. We can't give up on them.</strong>
+          </p>
+        </div>
 
+        <!-- Stats -->
+        <div class="children__stats">
+          <div class="children__stat">
+            <span class="children__stat-num">100+</span>
+            <span class="children__stat-label">Children in Need</span>
+          </div>
+          <div class="children__stat">
+            <span class="children__stat-num">0</span>
+            <span class="children__stat-label">Basic Needs Met</span>
+          </div>
+          <div class="children__stat">
+            <span class="children__stat-num">$1</span>
+            <span class="children__stat-label">Can Make a Difference</span>
+          </div>
+        </div>
+
+        <!-- Narrative + Hero Image -->
+        <div class="children__narrative">
+          <div class="children__story">
+            <h3>
+              A classroom without chairs.<br />A child without a meal.<br />This
+              is real.
+            </h3>
+            <p>
+              Deep in an impoverished community, hundreds of children gather
+              under makeshift roofs — walls of bamboo and thatch, floors of red
+              earth.
+              <strong
+                >They have uniforms. They have the will. What they don't have is
+                enough.</strong
+              >
+            </p>
+            <p>
+              Their parents are not absent — they are exhausted. Every coin that
+              comes in must first go to rent, to water, to survival. School fees
+              go unpaid. Textbooks go unbought. Children go hungry through the
+              school day, struggling to concentrate on lessons their minds are
+              too weak to hold.
+            </p>
+            <p>
+              Some carry their belongings in plastic bags because they cannot
+              afford a backpack. Some share a single chair. Some come barefoot.
+              <strong>They come anyway.</strong> Because they believe education
+              is their way out — if only someone would open the door.
+            </p>
+            <p>
+              That someone is you. A donation of any size funds a school term,
+              buys supplies, provides a meal, and tells a child:
+              <em class="children__accent">you are worth investing in.</em>
+            </p>
+            <a href="donate.html" class="btn btn--accent btn--lg">Donate Now</a>
+          </div>
+          <div class="children__hero-img">
+            <img
+              src="assets/images/children/PHOTO-2026-03-30-09-11-39_4_.jpeg"
+              alt="Children joyfully raising food packages they received"
+            />
+          </div>
+        </div>
+
+        <!-- Quote Callout -->
+        <div class="children__quote">
+          <blockquote>
+            "These children are not asking for the world — only for the chance
+            to learn, to grow, and to become someone. Right now, poverty is the
+            only thing standing in the way."
+          </blockquote>
+          <cite>— DAPH Field Team, Community Visit 2026</cite>
+        </div>
+
+        <!-- Gallery Header -->
+        <div class="children__gallery-header">
+          <p class="label label--light">
+            Faces of a Community That Refuses to Quit
+          </p>
+          <h3 class="section-heading section-heading--light">
+            Every photo is a real child. A real story. A real need.
+          </h3>
+        </div>
+
+        <!-- Photo Grid — 19 images, 4-column, zero empty cells
+             Row layout (cols must sum to 4 per row):
+             R1:  large(2) + 1 + 1          = 4  [large spans 2 rows → occupies R1+R2 cols 1-2]
+             R2:  (large cont.) + wide(2)   = 4
+             R3:  wide(2) + 1 + 1           = 4
+             R4:  1 + 1 + 1 + 1             = 4
+             R5:  tall(1, 2rows) + 1 + wide(2) = 4  [tall spans R5+R6 col 1]
+             R6:  (tall cont.) + 1 + 1 + 1  = 4
+             R7:  wide(2) + 1 + 1           = 4
+        -->
+        <div class="children__grid">
+          <!-- R1+R2: large (cols 1-2, rows 1-2) | R1 col3 | R1 col4 -->
+          <div class="children__cell children__cell--large">
+            <img
+              src="assets/images/children/PHOTO-2026-03-30-09-11-38_5_.jpeg"
+              alt="Dozens of children gathered in a community meeting space"
+            />
+            <div class="children__cell-caption">
+              A single gathering holds over a hundred children — all waiting for
+              a chance at school.
+            </div>
+          </div>
+          <div class="children__cell">
+            <img
+              src="assets/images/children/PHOTO-2026-03-30-09-11-39.jpeg"
+              alt="Young girl in school uniform looking at the camera"
+            />
+            <div class="children__cell-caption">
+              She arrives in her uniform every morning. She has no desk to sit
+              at.
+            </div>
+          </div>
+          <div class="children__cell">
+            <img
+              src="assets/images/children/PHOTO-2026-03-30-09-11-38_4_.jpeg"
+              alt="Two very young children seated on the ground"
+            />
+            <div class="children__cell-caption">
+              Too young to understand why, old enough to feel it.
+            </div>
+          </div>
+
+          <!-- R2 cont: (large still occupies cols 1-2) | wide (cols 3-4) -->
+          <div class="children__cell children__cell--wide">
+            <img
+              src="assets/images/children/PHOTO-2026-03-30-09-11-38.jpeg"
+              alt="A large group of children in school uniforms standing together outdoors"
+            />
+            <div class="children__cell-caption">
+              Dozens of students — each one a future waiting to be funded.
+            </div>
+          </div>
+
+          <!-- R3: wide(cols 1-2) | 1 | 1 -->
+          <div class="children__cell children__cell--wide">
+            <img
+              src="assets/images/children/PHOTO-2026-03-30-09-11-38_3_.jpeg"
+              alt="A packed room of children seated on makeshift benches"
+            />
+            <div class="children__cell-caption">
+              A room full of children — the only classroom they have.
+            </div>
+          </div>
+          <div class="children__cell">
+            <img
+              src="assets/images/children/PHOTO-2026-03-30-09-11-37_3_.jpeg"
+              alt="Boys in uniforms with worn and mismatched shoes"
+            />
+            <div class="children__cell-caption">
+              Their shoes tell the whole story — worn through, mismatched, but
+              still here.
+            </div>
+          </div>
+          <div class="children__cell">
+            <img
+              src="assets/images/children/PHOTO-2026-03-30-09-11-38_1_.jpeg"
+              alt="Girl carrying a torn and worn backpack"
+            />
+            <div class="children__cell-caption">
+              Her backpack is falling apart. She carries it anyway.
+            </div>
+          </div>
+
+          <!-- R4: 1 + 1 + 1 + 1 -->
+          <div class="children__cell">
+            <img
+              src="assets/images/children/PHOTO-2026-03-30-09-11-39_1_.jpeg"
+              alt="A small girl in uniform glancing aside"
+            />
+            <div class="children__cell-caption">
+              She showed up. That takes more courage than most of us will ever
+              know.
+            </div>
+          </div>
+          <div class="children__cell">
+            <img
+              src="assets/images/children/PHOTO-2026-03-30-09-11-39_2_.jpeg"
+              alt="Child seen from behind walking with a small worn bag"
+            />
+            <div class="children__cell-caption">
+              Walking to school with everything they own in a single bag.
+            </div>
+          </div>
+          <div class="children__cell">
+            <img
+              src="assets/images/children/PHOTO-2026-03-30-09-11-38_2_.jpeg"
+              alt="Children in uniform dispersing at the end of the school day"
+            />
+            <div class="children__cell-caption">
+              At the end of the day, they walk home to uncertain meals and
+              uncertain tomorrows.
+            </div>
+          </div>
+          <div class="children__cell">
+            <img
+              src="assets/images/children/PHOTO-2026-03-30-09-11-38_7_.jpeg"
+              alt="Children sitting packed together waiting quietly"
+            />
+            <div class="children__cell-caption">
+              They wait. Patient, quiet. Hoping today someone will say yes.
+            </div>
+          </div>
+
+          <!-- R5+R6: tall (col 1, rows 5-6) | R5 col2 | wide (cols 3-4) -->
+          <div class="children__cell children__cell--tall">
+            <img
+              src="assets/images/children/PHOTO-2026-03-30-09-11-36.jpeg"
+              alt="An outreach worker surrounded by children in school uniforms"
+            />
+            <div class="children__cell-caption">
+              Meeting them where they are — on the red-earth roads they walk
+              every day.
+            </div>
+          </div>
+          <div class="children__cell">
+            <img
+              src="assets/images/children/PHOTO-2026-03-30-09-11-38_6_.jpeg"
+              alt="Young children standing together, some eating snacks"
+            />
+            <div class="children__cell-caption">
+              For some, the snack they receive here is the only food they'll eat
+              today.
+            </div>
+          </div>
+          <div class="children__cell children__cell--wide">
+            <img
+              src="assets/images/children/PHOTO-2026-03-30-09-11-37.jpeg"
+              alt="Wide view of children in school uniforms gathered in an open yard"
+            />
+            <div class="children__cell-caption">
+              This many children. This many futures. This much potential — if
+              only we act.
+            </div>
+          </div>
+
+          <!-- R6 cont: (tall still col 1) | 1 + 1 + 1 -->
+          <div class="children__cell">
+            <img
+              src="assets/images/children/PHOTO-2026-03-30-09-11-39_3_.jpeg"
+              alt="Young girls sitting together holding snack packages"
+            />
+            <div class="children__cell-caption">
+              Side by side — because together, there's at least warmth.
+            </div>
+          </div>
+          <div class="children__cell">
+            <img
+              src="assets/images/children/PHOTO-2026-03-30-09-11-37_1_.jpeg"
+              alt="Three girls standing together looking at the camera"
+            />
+            <div class="children__cell-caption">
+              Three friends. Three school fees their families cannot pay.
+            </div>
+          </div>
+          <div class="children__cell">
+            <img
+              src="assets/images/children/PHOTO-2026-03-30-09-11-37_4_.jpeg"
+              alt="A community worker holding a small child close"
+            />
+            <div class="children__cell-caption">
+              Every child deserves someone who shows up for them. You can be
+              that person.
+            </div>
+          </div>
+
+          <!-- R7: wide(cols 1-2) | 1 | 1 -->
+          <div class="children__cell children__cell--wide">
+            <img
+              src="assets/images/children/PHOTO-2026-03-30-09-11-39_4_.jpeg"
+              alt="All the children joyfully raising food packages in the air"
+            />
+            <div class="children__cell-caption">
+              This is what hope looks like. Imagine what it looks like when they
+              receive a school term instead.
+            </div>
+          </div>
+          <div class="children__cell">
+            <img
+              src="assets/images/children/PHOTO-2026-03-30-09-11-37_2_.jpeg"
+              alt="Community worker with a crowd of children and youth behind him"
+            />
+            <div class="children__cell-caption">
+              One worker. Hundreds of children. We need more hands on deck.
+            </div>
+          </div>
+          <div class="children__cell">
+            <img
+              src="assets/images/children/PHOTO-2026-03-30-09-11-37_1_.jpeg"
+              alt="Three girls standing together looking at the camera"
+            />
+            <div class="children__cell-caption">
+              Three friends. Three school fees their families cannot pay.
+            </div>
+          </div>
+        </div>
+        <!-- /.children__grid -->
+
+        <!-- Video Section -->
+        <div class="children__videos">
+          <p class="label label--light">See Their World</p>
+          <h3 class="section-heading section-heading--light">From the Field</h3>
+          <div class="children__video-grid">
+            <!--
+              When your videos are ready, replace each placeholder below with either:
+              A) Local file:
+                 <video controls poster="assets/images/children/thumb1.jpg" class="children__video-embed">
+                   <source src="assets/videos/children-1.mp4" type="video/mp4">
+                 </video>
+              B) YouTube/Vimeo:
+                 <iframe class="children__video-embed" src="https://www.youtube.com/embed/YOUR_ID"
+                   allowfullscreen style="border:none;"></iframe>
+            -->
+            <div class="children__video-placeholder">
+              <div class="children__play-icon">▶</div>
+              <span>Video 1 — Coming Soon</span>
+            </div>
+            <div class="children__video-placeholder">
+              <div class="children__play-icon">▶</div>
+              <span>Video 2 — Coming Soon</span>
+            </div>
+            <div class="children__video-placeholder">
+              <div class="children__play-icon">▶</div>
+              <span>Video 3 — Coming Soon</span>
+            </div>
+            <div class="children__video-placeholder">
+              <div class="children__play-icon">▶</div>
+              <span>Video 4 — Coming Soon</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+
+      <!-- Donate CTA — full bleed -->
+      <div class="children__cta">
+        <div class="container">
+          <h2 class="section-heading section-heading--light">
+            A child's future<br />
+            <em>shouldn't depend on luck.</em>
+          </h2>
+          <p class="section-sub section-sub--light">
+            These children are real. Their needs are urgent. Your donation — no
+            matter the size — directly funds school fees, supplies, and meals
+            for children whose families have nothing left to give.
+          </p>
+          <div class="children__cta-buttons">
+            <a href="donate.html" class="btn btn--accent btn--lg">Donate Now</a>
+            <a href="volunteer.html" class="btn btn--outline btn--lg"
+              >Get Involved</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- ===== NEWS PREVIEW ===== -->
     <section class="news" id="news">
       <div class="container">
-        <p class="label" data-i18n="news.label">Things you don't want to miss</p>
+        <p class="label" data-i18n="news.label">
+          Things you don't want to miss
+        </p>
         <h2 class="section-heading" data-i18n="news.heading">Latest Updates</h2>
         <div class="news__grid">
           <article class="news-card news-card--featured">
             <div class="news-card__img news-card__img--1"></div>
             <div class="news-card__body">
-              <span class="news-card__tag" data-i18n="news.tag1">Press Release</span>
-              <h3><a href="news.html" data-i18n="news.story1.title">DAPH Launches Statewide Accessibility Audit Initiative</a></h3>
-              <p data-i18n="news.story1.body">Our new program will assess accessibility gaps in public buildings across 2 counties, pushing local governments to act.</p>
-              <a href="news.html" class="news-card__more" data-i18n="news.readMore">Read more →</a>
+              <span class="news-card__tag" data-i18n="news.tag1"
+                >Press Release</span
+              >
+              <h3>
+                <a href="news.html" data-i18n="news.story1.title"
+                  >DAPH Launches Statewide Accessibility Audit Initiative</a
+                >
+              </h3>
+              <p data-i18n="news.story1.body">
+                Our new program will assess accessibility gaps in public
+                buildings across 2 counties, pushing local governments to act.
+              </p>
+              <a
+                href="news.html"
+                class="news-card__more"
+                data-i18n="news.readMore"
+                >Read more →</a
+              >
             </div>
           </article>
           <article class="news-card">
             <div class="news-card__img news-card__img--2"></div>
             <div class="news-card__body">
               <span class="news-card__tag" data-i18n="news.tag2">Updates</span>
-              <h3><a href="news.html" data-i18n="news.story2.title">Community Listening Sessions Begin This Spring</a></h3>
-              <p data-i18n="news.story2.body">Join us as we bring our team into 3 neighborhoods to hear directly from residents about their most pressing needs.</p>
-              <a href="news.html" class="news-card__more" data-i18n="news.readMore">Read more →</a>
+              <h3>
+                <a href="news.html" data-i18n="news.story2.title"
+                  >Community Listening Sessions Begin This Spring</a
+                >
+              </h3>
+              <p data-i18n="news.story2.body">
+                Join us as we bring our team into 3 neighborhoods to hear
+                directly from residents about their most pressing needs.
+              </p>
+              <a
+                href="news.html"
+                class="news-card__more"
+                data-i18n="news.readMore"
+                >Read more →</a
+              >
             </div>
           </article>
           <article class="news-card">
             <div class="news-card__img news-card__img--3"></div>
             <div class="news-card__body">
-              <span class="news-card__tag" data-i18n="news.tag3">In The News</span>
-              <h3><a href="news.html" data-i18n="news.story3.title">DAPH Members Testify Before City Council on Housing Accessibility</a></h3>
-              <p data-i18n="news.story3.body">Advocates brought powerful personal stories to city hall, demanding enforcement of fair housing codes.</p>
-              <a href="news.html" class="news-card__more" data-i18n="news.readMore">Read more →</a>
+              <span class="news-card__tag" data-i18n="news.tag3"
+                >In The News</span
+              >
+              <h3>
+                <a href="news.html" data-i18n="news.story3.title"
+                  >DAPH Members Testify Before City Council on Housing
+                  Accessibility</a
+                >
+              </h3>
+              <p data-i18n="news.story3.body">
+                Advocates brought powerful personal stories to city hall,
+                demanding enforcement of fair housing codes.
+              </p>
+              <a
+                href="news.html"
+                class="news-card__more"
+                data-i18n="news.readMore"
+                >Read more →</a
+              >
             </div>
           </article>
         </div>
         <div class="news__cta">
-          <a href="news.html" class="btn btn--outline" data-i18n="news.viewAll">View All Updates</a>
+          <a href="news.html" class="btn btn--outline" data-i18n="news.viewAll"
+            >View All Updates</a
+          >
         </div>
       </div>
     </section>
@@ -228,12 +766,30 @@
       <div class="container cta-band__inner">
         <div>
           <h2 data-i18n="cta.heading">Ready to make a difference?</h2>
-          <p data-i18n="cta.sub">Join thousands of advocates working toward a more just and accessible world.</p>
+          <p data-i18n="cta.sub">
+            Join thousands of advocates working toward a more just and
+            accessible world.
+          </p>
         </div>
         <div class="cta-band__buttons">
-          <a href="volunteer.html" class="btn btn--primary btn--lg" data-i18n="nav.volunteer">Volunteer</a>
-          <a href="volunteer.html#signup" class="btn btn--outline btn--lg" data-i18n="cta.signUp">Sign Up for Updates</a>
-          <a href="donate.html" class="btn btn--accent btn--lg" data-i18n="nav.donate">Donate</a>
+          <a
+            href="volunteer.html"
+            class="btn btn--primary btn--lg"
+            data-i18n="nav.volunteer"
+            >Volunteer</a
+          >
+          <a
+            href="volunteer.html#signup"
+            class="btn btn--outline btn--lg"
+            data-i18n="cta.signUp"
+            >Sign Up for Updates</a
+          >
+          <a
+            href="donate.html"
+            class="btn btn--accent btn--lg"
+            data-i18n="nav.donate"
+            >Donate</a
+          >
         </div>
       </div>
     </section>
@@ -242,9 +798,17 @@
     <footer class="footer" id="contact">
       <div class="container footer__inner">
         <div class="footer__brand">
-          <img src="assets/images/logo2.png" alt="DAPH" class="footer__logo-img" />
+          <img
+            src="assets/images/logo2.png"
+            alt="DAPH"
+            class="footer__logo-img"
+          />
           <a href="index.html" class="footer__logo">DAPH</a>
-          <p data-i18n="footer.brand">DAPH builds the power of people with disabilities and under-resourced communities to win change through issue campaigns and elections.</p>
+          <p data-i18n="footer.brand">
+            DAPH builds the power of people with disabilities and
+            under-resourced communities to win change through issue campaigns
+            and elections.
+          </p>
           <div class="footer__socials">
             <a href="#" aria-label="Twitter">𝕏</a>
             <a href="#" aria-label="Instagram">📷</a>
@@ -255,24 +819,42 @@
           <h4 data-i18n="nav.about">About</h4>
           <ul>
             <li><a href="about.html#who" data-i18n="nav.who">Who We Are</a></li>
-            <li><a href="about.html#history" data-i18n="nav.history">Our History</a></li>
-            <li><a href="about.html#board" data-i18n="nav.board">Board of Directors</a></li>
+            <li>
+              <a href="about.html#history" data-i18n="nav.history"
+                >Our History</a
+              >
+            </li>
+            <li>
+              <a href="about.html#board" data-i18n="nav.board"
+                >Board of Directors</a
+              >
+            </li>
             <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
           </ul>
         </div>
         <div class="footer__col">
           <h4 data-i18n="nav.resources">Resources</h4>
           <ul>
-            <li><a href="news.html" data-i18n="nav.updates">Latest Updates</a></li>
-            <li><a href="news.html#press" data-i18n="nav.press">Press Releases</a></li>
-            <li><a href="news.html#reports" data-i18n="nav.reports">Reports</a></li>
+            <li>
+              <a href="news.html" data-i18n="nav.updates">Latest Updates</a>
+            </li>
+            <li>
+              <a href="news.html#press" data-i18n="nav.press">Press Releases</a>
+            </li>
+            <li>
+              <a href="news.html#reports" data-i18n="nav.reports">Reports</a>
+            </li>
           </ul>
         </div>
         <div class="footer__col">
           <h4 data-i18n="nav.action">Take Action</h4>
           <ul>
-            <li><a href="volunteer.html" data-i18n="nav.volunteer">Volunteer</a></li>
-            <li><a href="volunteer.html#signup" data-i18n="nav.signup">Sign Up</a></li>
+            <li>
+              <a href="volunteer.html" data-i18n="nav.volunteer">Volunteer</a>
+            </li>
+            <li>
+              <a href="volunteer.html#signup" data-i18n="nav.signup">Sign Up</a>
+            </li>
             <li><a href="donate.html" data-i18n="nav.donate">Donate</a></li>
           </ul>
         </div>
@@ -287,7 +869,9 @@
       </div>
       <div class="footer__bottom">
         <div class="container footer__bottom-inner">
-          <p data-i18n="footer.copy">©2026 DAPH — Disability Advocacy &amp; Public Health</p>
+          <p data-i18n="footer.copy">
+            ©2026 DAPH — Disability Advocacy &amp; Public Health
+          </p>
           <div class="footer__legal">
             <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
             <a href="#" data-i18n="footer.terms">Terms</a>
