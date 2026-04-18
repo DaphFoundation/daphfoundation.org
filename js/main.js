@@ -29,7 +29,7 @@ const translations = {
       contact: "Contact Us",
     },
     hero: {
-      eyebrow: "Disability Advocacy & Public Health",
+      eyebrow: "Donate to the poor of Haiti",
       heading: "Together, we rise.",
       heading2: "Organized, we thrive.",
       sub: "We invite every individual, no matter how isolated or powerless they feel, to be part of a transformative journey toward equity and justice.",
@@ -116,7 +116,7 @@ const translations = {
         "DAPH builds the power of people with disabilities and under-resourced communities to win change through issue campaigns and elections.",
       careers: "Careers",
       projects: "Projects",
-      copy: "©2026 DAPH — Disability Advocacy & Public Health",
+      copy: "©2026 DAPH — Donate to the poor of haiti",
       privacy: "Privacy Policy",
       terms: "Terms",
       financials: "Financials",
