@@ -258,7 +258,7 @@ const translations = {
       donate: "Faire un Don",
     },
     hero: {
-      eyebrow: "Défense du Handicap et Santé Publique",
+      eyebrow: "Donner votre Aide aux Pauvres d'Haïti",
       heading: "Ensemble, nous nous levons.",
       heading2: "Organisés, nous prospérons.",
       sub: "Nous invitons chaque individu, peu importe à quel point il se sent isolé ou impuissant, à faire partie d'un voyage transformateur vers l'équité et la justice.",
@@ -344,7 +344,7 @@ const translations = {
         "DAPH construit le pouvoir des personnes handicapées et des communautés sous-financées pour gagner des changements à travers des campagnes.",
       careers: "Carrières",
       projects: "Projets",
-      copy: "©2026 DAPH — Défense du Handicap et Santé Publique",
+      copy: "©2026 DAPH — Donner votre Aide aux Pauvres d'Haïti",
       privacy: "Politique de Confidentialité",
       terms: "Conditions",
       financials: "Finances",
@@ -372,7 +372,7 @@ const translations = {
       donate: "Fè don",
     },
     hero: {
-      eyebrow: "Defans Andikap & Sante Piblik",
+      eyebrow: "Donnen Èd Ou pou Pòv Ayiti",
       heading: "Ansanm, nou leve.",
       heading2: "Òganize, nou pwospere.",
       sub: "Nou envite chak moun, kèlkeswa jan yo santi yo izole oswa san pouvwa, pou yo fè pati yon vwayaj transfòmatè vè ekite ak jistis.",
@@ -458,7 +458,7 @@ const translations = {
         "DAPH konstwi pouvwa moun andikape ak kominote ki manke resous pou genyen chanjman atravè kanpay.",
       careers: "Djòb",
       projects: "Pwojè",
-      copy: "©2026 DAPH — Defans Andikap & Sante Piblik",
+      copy: "©2026 DAPH — Donnen Èd Ou pou Pòv Ayiti",
       privacy: "Politik Konfidansyalite",
       terms: "Tèm",
       financials: "Finans",
@@ -510,11 +510,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const saved = localStorage.getItem("daph-lang");
   const browserLang = navigator.language.slice(0, 2);
   const supported = Object.keys(translations);
-  const initialLang = supported.includes(saved)
-    ? saved
-    : supported.includes(browserLang)
-      ? browserLang
-      : "en";
+  const initialLang = supported.includes(saved) ? saved : "ht";
   applyLanguage(initialLang);
 
   // ── Language Switcher toggle ──────────────────────────────────
